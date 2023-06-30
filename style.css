@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa&display=swap');
+
+body {
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Comfortaa', cursive;
+  margin: 0;
+  padding: 20px;
+  background-color: rgb(224, 167, 82);
+ 
+}
+
+.container{
+  width: 100%;
+  max-width: 540px;
+  background: #6585a5;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 40px 30px 70px;
+  border-radius: 25px;
+  box-shadow: 5px 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  
+
+}
+
+input[type="text"] {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+ 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 2px;
+  box-shadow: 5px 5px;
+  
+}
+
+.today{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.today h1{
+  font-size: 55px;
+}
+
+.quote-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+
+
+#today{
+  font-size: 20px;
+}
+li:active{
+  background-color: rgb(36, 35, 35);
+}
+@media (min-width: 768px) {
+  /* Styles for screens with a minimum width of 768px */
+  input[type="text"] {
+    width: 200px;
+  }
+}
+
