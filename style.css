@@ -4,15 +4,19 @@ body {
   font-family: 'Bebas Neue', sans-serif;
   font-family: 'Comfortaa', cursive;
   margin: 0;
-  padding: 20px;
-  background-color: rgb(224, 167, 82);
+  padding: 10px;
+  background-color: rgb(82, 162, 86);
+  
+
+  min-height: 100vh;
+  min-width: 100vw;
  
 }
 
 .container{
   width: 100%;
   max-width: 540px;
-  background: #6585a5;
+  background: #bdd8c6;
   margin-right: auto;
   margin-left: auto;
   padding: 40px 30px 70px;
@@ -69,7 +73,7 @@ li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 .today h1{
@@ -81,21 +85,27 @@ li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 25px;
+  margin-top: 25px;
+  border-radius: 5px #000000;
+ 
 }
 
 
 
 #today{
-  font-size: 20px;
+  font-size: 24px;
 }
 li:active{
   background-color: rgb(36, 35, 35);
 }
-@media (min-width: 768px) {
+@media only screen and (max-width: 770px) {
   /* Styles for screens with a minimum width of 768px */
-  input[type="text"] {
-    width: 200px;
-  }
+ .container{
+  width: 70%;
+  max-width: 540px;
+ 
+
+ }
+  
 }
 
