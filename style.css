@@ -98,14 +98,13 @@ li {
 li:active{
   background-color: rgb(36, 35, 35);
 }
-@media only screen and (max-width: 770px) {
-  /* Styles for screens with a minimum width of 768px */
- .container{
-  width: 70%;
-  max-width: 540px;
- 
+@media (max-width: 768px) {
+  .container {
+    padding: 40px 10px 70px; /* Further adjusted padding */
+    color: black;
+  }
 
- }
-  
+  li {
+    padding: 10px; /* Adjusted padding for smaller screens */
+  }
 }
-
